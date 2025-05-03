@@ -26,5 +26,8 @@ const myFunction=function(){
     
 }
 myFunction();
+console.log(typeof myFunction);//object function
+console.log(typeof outSide);//object
+//datatype of non primitive is function other than function whose datatype is object function
 
 // node 01_basics/datatype_summary.js
