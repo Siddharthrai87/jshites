@@ -24,8 +24,13 @@ console.log(newString1);
 newString1.trim()
 console.log(newString1);
 console.log(newString1.trim());
+// trimstart() and trimend() and it works only on whitespace character only not on line terminator.
 
-
+const url="https://hitesh.com/hitesh%20choudhary"
+console.log(url.replace('%20','-'));
+console.log(url.includes('hitesh'));
+console.log(url.includes('sundar'));
+console.log(gameName.split('-'));//convert it to array
 
 
 // node 01_basics/05_strings.js
